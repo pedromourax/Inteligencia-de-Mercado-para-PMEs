@@ -7,7 +7,7 @@ import { LegalSection } from "@/components/legal-section";
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-20 pb-20">
+    <div className="flex flex-col items-center justify-center gap-20 pb-20 w-full">
       <Hero />
       <Features />
       <PricingPlans />
